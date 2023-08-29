@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 const port = 3000;
 
-app.listen(port, () => console.log("http://localhost:10533"));
+app.listen(port, () => console.log("http://localhost:3000"));
 
 app.get("/", (req,res) =>{
     res.send("Hola Andrea");
